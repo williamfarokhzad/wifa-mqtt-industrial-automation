@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430" role="img" aria-labelledby="title desc">
+<title id="title">A dashboard can expire a reading without another message</title>
+<desc id="desc">A sample taken at 100 seconds arrives at 101. With a five-second limit it is still shown at the 105-second refresh, then becomes unknown at the 106-second refresh.</desc>
+<rect width="720" height="430" rx="22" fill="#eef7f5"/>
+<g font-family="DejaVu Sans,sans-serif" fill="#123142">
+<text x="34" y="55" font-size="34" font-weight="bold">When the stream goes quiet</text>
+<text x="34" y="101" font-size="25">Sample taken at 100 s · limit 5 s</text>
+<line x1="74" y1="141" x2="74" y2="358" stroke="#36545c" stroke-width="6"/>
+<g font-size="29" font-weight="bold"><text x="113" y="169">101 s</text><text x="113" y="253">105 s</text><text x="113" y="337">106 s</text></g>
+<circle cx="74" cy="160" r="15" fill="#006f59"/><circle cx="74" cy="244" r="15" fill="#006f59"/>
+<circle cx="74" cy="328" r="15" fill="#a2471a"/>
+<g font-size="27"><text x="236" y="169">Message · 42.0 °C</text><text x="236" y="253">Refresh · still 42.0 °C</text><text x="236" y="337">Refresh · unknown</text></g>
+<text x="113" y="395" font-size="23" fill="#36545c">No messages arrive after 101 s.</text>
+</g></svg>

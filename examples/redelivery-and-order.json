@@ -1,0 +1,65 @@
+{
+  "max_age_s": 5,
+  "steps": [
+    {
+      "kind": "message",
+      "at_s": 101,
+      "topic": "plant/cell-1/motor/temp",
+      "retained": false,
+      "dup": false,
+      "payload": {
+        "seq": 21,
+        "sampled_s": 100,
+        "temp_c": 42
+      }
+    },
+    {
+      "kind": "message",
+      "at_s": 102,
+      "topic": "plant/cell-1/motor/temp",
+      "retained": false,
+      "dup": false,
+      "payload": {
+        "seq": 21,
+        "sampled_s": 100,
+        "temp_c": 42
+      }
+    },
+    {
+      "kind": "message",
+      "at_s": 103,
+      "topic": "plant/cell-1/motor/temp",
+      "retained": false,
+      "dup": true,
+      "payload": {
+        "seq": 20,
+        "sampled_s": 99,
+        "temp_c": 41
+      }
+    },
+    {
+      "kind": "message",
+      "at_s": 104,
+      "topic": "plant/cell-1/motor/temp",
+      "retained": false,
+      "dup": false,
+      "payload": {
+        "seq": 21,
+        "sampled_s": 100,
+        "temp_c": 85
+      }
+    },
+    {
+      "kind": "message",
+      "at_s": 105,
+      "topic": "plant/cell-1/motor/temp",
+      "retained": false,
+      "dup": true,
+      "payload": {
+        "seq": 22,
+        "sampled_s": 104,
+        "temp_c": 43
+      }
+    }
+  ]
+}

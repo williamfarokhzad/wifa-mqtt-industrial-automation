@@ -1,0 +1,13 @@
+{
+  "max_age_s": 5,
+  "steps": [
+    {
+      "kind": "tick",
+      "at_s": 2
+    },
+    {
+      "kind": "tick",
+      "at_s": 1
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="500" viewBox="0 0 720 500" role="img" aria-labelledby="title desc">
+<title id="title">One retained reading and one live reading on the receiver clock</title>
+<desc id="desc">At receiver time 100, sample time 70 yields age 30 and an unknown display. At time 101, sample time 100 yields age one and a display of 42 degrees Celsius.</desc>
+<rect width="720" height="500" rx="22" fill="#102c3b"/>
+<g font-family="DejaVu Sans,sans-serif">
+<text x="36" y="57" font-size="34" font-weight="bold" fill="#fff">Freshness starts at the sensor</text>
+<text x="36" y="100" font-size="25" fill="#c3e5ec">Age = receiver time − sample time</text>
+<rect x="33" y="132" width="654" height="148" rx="15" fill="#fff0dc"/>
+<text x="57" y="171" font-size="27" font-weight="bold" fill="#713c12">Retained delivery at 100 s</text>
+<text x="57" y="218" font-size="31" fill="#223740">100 − 70 = 30 s</text>
+<text x="57" y="253" font-size="27" fill="#713c12">Expired · display unknown</text>
+<rect x="33" y="304" width="654" height="148" rx="15" fill="#d9f7ed"/>
+<text x="57" y="343" font-size="27" font-weight="bold" fill="#004b3b">Live delivery at 101 s</text>
+<text x="57" y="390" font-size="31" fill="#223740">101 − 100 = 1 s</text>
+<text x="57" y="425" font-size="27" fill="#004b3b">Accepted · display 42.0 °C</text>
+<text x="36" y="484" font-size="22" fill="#c3e5ec">Synthetic replay · age limit 5 s inclusive</text>
+</g></svg>
